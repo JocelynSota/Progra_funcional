@@ -1,6 +1,5 @@
 const fs = require('fs');
 
-// Función para leer el archivo JSON y parsearlo
 function cargarProductos () {
   try {
     const data = fs.readFileSync('productos.JSON', 'utf8');
@@ -11,15 +10,12 @@ function cargarProductos () {
   }
 };
 
-// Función para contar los productos con existencia mayor a 20
 function existenciaMayor20 (productos) {
     return productos.productos.filter(producto => producto.cantidad_existencia > 20).length;}
 
-// Función para contar los productos con existencia menor a 15
 function existenciaMenos15 (productos) {
     return productos.productos.filter(producto => producto.cantidad_existencia < 15).length;}
 
-// Función para obtener la lista de productos con la misma clasificación y precio mayor a 15.50
 function clasificacionPrecio(productos) {
     const productosAgrupados = {};
   
@@ -38,11 +34,11 @@ function clasificacionPrecio(productos) {
   
     return productosAgrupados;
   };
-// Función para obtener la lista de productos con precio mayor a 20.30 y menor a 45.00
+
 function precioEntre20y45 (productos) {
     return productos.productos.filter(producto => producto.precio > 20.30 && producto.precio < 45.00);}
 
-// Función para contar los productos agrupados por su clasificación
+
 function contarProductosClasi (productos) {
   const contador = {};
   productos.productos.forEach(productos => {
@@ -52,7 +48,6 @@ function contarProductosClasi (productos) {
   return contador;
 };
 
-// Cargar los productos desde el archivo JSON
 let productos = cargarProductos();
 
 // Ejecutar los ejercicios
