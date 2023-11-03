@@ -1,0 +1,726 @@
+{
+    "productos": [
+      {
+        "clave": "001",
+        "descripción": "Arroz",
+        "precio": 20.99,
+        "clasificación": "Granos",
+        "cantidad_existencia": 100,
+        "existencia_mínima": 20,
+        "existencia_máxima": 200
+      },
+      {
+        "clave": "002",
+        "descripción": "Frijoles",
+        "precio": 10.99,
+        "clasificación": "Granos",
+        "cantidad_existencia": 150,
+        "existencia_mínima": 30,
+        "existencia_máxima": 180
+      },
+      {
+        "clave": "003",
+        "descripción": "Leche",
+        "precio": 30.49,
+        "clasificación": "Lácteos",
+        "cantidad_existencia": 80,
+        "existencia_mínima": 15,
+        "existencia_máxima": 120
+      },
+      {
+        "clave": "004",
+        "descripción": "Huevos",
+        "precio": 12.99,
+        "clasificación": "Lácteos",
+        "cantidad_existencia": 60,
+        "existencia_mínima": 10,
+        "existencia_máxima": 100
+      },
+      {
+        "clave": "005",
+        "descripción": "Pollo",
+        "precio": 23.99,
+        "clasificación": "Carnes",
+        "cantidad_existencia": 40,
+        "existencia_mínima": 5,
+        "existencia_máxima": 60
+      },
+      {
+        "clave": "006",
+        "descripción": "Pan",
+        "precio": 33.49,
+        "clasificación": "Panadería",
+        "cantidad_existencia": 120,
+        "existencia_mínima": 25,
+        "existencia_máxima": 150
+      },
+      {
+        "clave": "007",
+        "descripción": "Aceite de cocina",
+        "precio": 17.99,
+        "clasificación": "Aceites",
+        "cantidad_existencia": 50,
+        "existencia_mínima": 10,
+        "existencia_máxima": 80
+      },
+      {
+        "clave": "008",
+        "descripción": "Manzanas",
+        "precio": 10.49,
+        "clasificación": "Frutas",
+        "cantidad_existencia": 75,
+        "existencia_mínima": 15,
+        "existencia_máxima": 90
+      },
+      {
+        "clave": "009",
+        "descripción": "Tomates",
+        "precio": 10.99,
+        "clasificación": "Verduras",
+        "cantidad_existencia": 90,
+        "existencia_mínima": 20,
+        "existencia_máxima": 120
+      },
+      {
+        "clave": "010",
+        "descripción": "Pasta",
+        "precio": 15.49,
+        "clasificación": "Cereales",
+        "cantidad_existencia": 60,
+        "existencia_mínima": 15,
+        "existencia_máxima": 80
+      },
+      {
+        "clave": "011",
+        "descripción": "Café",
+        "precio": 35.99,
+        "clasificación": "Bebidas",
+        "cantidad_existencia": 70,
+        "existencia_mínima": 10,
+        "existencia_máxima": 90
+      },
+      {
+        "clave": "012",
+        "descripción": "Azúcar",
+        "precio": 20.49,
+        "clasificación": "Endulzantes",
+        "cantidad_existencia": 80,
+        "existencia_mínima": 20,
+        "existencia_máxima": 100
+      },
+      {
+        "clave": "013",
+        "descripción": "Jabón de lavandería",
+        "precio": 30.99,
+        "clasificación": "Limpieza",
+        "cantidad_existencia": 40,
+        "existencia_mínima": 5,
+        "existencia_máxima": 60
+      },
+      {
+        "clave": "014",
+        "descripción": "Detergente",
+        "precio": 45.49,
+        "clasificación": "Limpieza",
+        "cantidad_existencia": 35,
+        "existencia_mínima": 5,
+        "existencia_máxima": 60
+      },
+      {
+        "clave": "015",
+        "descripción": "Cereal de maíz",
+        "precio": 32.29,
+        "clasificación": "Cereales",
+        "cantidad_existencia": 65,
+        "existencia_mínima": 10,
+        "existencia_máxima": 80
+      },
+      {
+        "clave": "016",
+        "descripción": "Papel higiénico",
+        "precio": 15.99,
+        "clasificación": "Papel y productos de baño",
+        "cantidad_existencia": 50,
+        "existencia_mínima": 15,
+        "existencia_máxima": 70
+      },
+      {
+        "clave": "017",
+        "descripción": "Salmón",
+        "precio": 79.99,
+        "clasificación": "Pescado y mariscos",
+        "cantidad_existencia": 30,
+        "existencia_mínima": 5,
+        "existencia_máxima": 40
+      },
+      {
+        "clave": "018",
+        "descripción": "Papas",
+        "precio": 11.49,
+        "clasificación": "Verduras",
+        "cantidad_existencia": 70,
+        "existencia_mínima": 15,
+        "existencia_máxima": 90
+      },
+      {
+        "clave": "019",
+        "descripción": "Pasta de dientes",
+        "precio": 17.99,
+        "clasificación": "Cuidado personal",
+        "cantidad_existencia": 40,
+        "existencia_mínima": 10,
+        "existencia_máxima": 60
+      },
+      {
+        "clave": "020",
+        "descripción": "Yogur",
+        "precio": 13.79,
+        "clasificación": "Lácteos",
+        "cantidad_existencia": 60,
+        "existencia_mínima": 15,
+        "existencia_máxima": 80
+      },
+      {
+        "clave": "021",
+        "descripción": "Aceitunas",
+        "precio": 21.29,
+        "clasificación": "Enlatados",
+        "cantidad_existencia": 25,
+        "existencia_mínima": 5,
+        "existencia_máxima": 40
+      },
+      {
+        "clave": "022",
+        "descripción": "Sopa enlatada",
+        "precio": 23.99,
+        "clasificación": "Enlatados",
+        "cantidad_existencia": 410,
+        "existencia_mínima": 10,
+        "existencia_máxima": 60
+      },
+      {
+        "clave": "023",
+        "descripción": "Galletas",
+        "precio": 16.49,
+        "clasificación": "Bocadillos",
+        "cantidad_existencia": 70,
+        "existencia_mínima": 15,
+        "existencia_máxima": 90
+      },
+      {
+        "clave": "024",
+        "descripción": "Harina de trigo",
+        "precio": 19.99,
+        "clasificación": "Harinas",
+        "cantidad_existencia": 55,
+        "existencia_mínima": 10,
+        "existencia_máxima": 70
+      },
+      {
+        "clave": "025",
+        "descripción": "Cerveza",
+        "precio": 27.49,
+        "clasificación": "Bebidas alcohólicas",
+        "cantidad_existencia": 40,
+        "existencia_mínima": 10,
+        "existencia_máxima": 60
+      },
+      {
+        "clave": "026",
+        "descripción": "Jugo de naranja",
+        "precio": 12.29,
+        "clasificación": "Bebidas",
+        "cantidad_existencia": 30,
+        "existencia_mínima": 5,
+        "existencia_máxima": 40
+      },
+      {
+        "clave": "027",
+        "descripción": "Papel toalla",
+        "precio": 21.99,
+        "clasificación": "Papel y productos de baño",
+        "cantidad_existencia": 60,
+        "existencia_mínima": 15,
+        "existencia_máxima": 80
+      },
+      {
+        "clave": "028",
+        "descripción": "Cebollas",
+        "precio": 18.49,
+        "clasificación": "Verduras",
+        "cantidad_existencia": 50,
+        "existencia_mínima": 10,
+        "existencia_máxima": 70
+      },
+      {
+        "clave": "029",
+        "descripción": "Salsa de tomate",
+        "precio": 18.79,
+        "clasificación": "Salsas",
+        "cantidad_existencia": 40,
+        "existencia_mínima": 10,
+        "existencia_máxima": 60
+      },
+      {
+        "clave": "030",
+        "descripción": "Pimientos",
+        "precio": 11.99,
+        "clasificación": "Verduras",
+        "cantidad_existencia": 35,
+        "existencia_mínima": 5,
+        "existencia_máxima": 50
+      },
+      {
+        "clave": "031",
+        "descripción": "Mantequilla",
+        "precio": 15.99,
+        "clasificación": "Lácteos",
+        "cantidad_existencia": 30,
+        "existencia_mínima": 10,
+        "existencia_máxima": 40
+      },
+      {
+        "clave": "032",
+        "descripción": "Cereal de avena",
+        "precio": 14.49,
+        "clasificación": "Cereales",
+        "cantidad_existencia": 50,
+        "existencia_mínima": 15,
+        "existencia_máxima": 60
+      },
+      {
+        "clave": "033",
+        "descripción": "Miel",
+        "precio": 34.29,
+        "clasificación": "Endulzantes",
+        "cantidad_existencia": 25,
+        "existencia_mínima": 5,
+        "existencia_máxima": 40
+      },
+      {
+        "clave": "034",
+        "descripción": "Mantequilla de cacahuate",
+        "precio": 31.99,
+        "clasificación": "Untables",
+        "cantidad_existencia": 30,
+        "existencia_mínima": 5,
+        "existencia_máxima": 40
+      },
+      {
+        "clave": "035",
+        "descripción": "Galletas saladas",
+        "precio": 22.29,
+        "clasificación": "Bocadillos",
+        "cantidad_existencia": 60,
+        "existencia_mínima": 15,
+        "existencia_máxima": 80
+      },
+      {
+        "clave": "036",
+        "descripción": "Pechugas de pollo",
+        "precio": 67.49,
+        "clasificación": "Carnes",
+        "cantidad_existencia": 5,
+        "existencia_mínima": 5,
+        "existencia_máxima": 35
+      },
+      {
+        "clave": "037",
+        "descripción": "Queso cheddar",
+        "precio": 40.99,
+        "clasificación": "Lácteos",
+        "cantidad_existencia": 40,
+        "existencia_mínima": 10,
+        "existencia_máxima": 60
+      },
+      {
+        "clave": "038",
+        "descripción": "Cerveza sin alcohol",
+        "precio": 31.49,
+        "clasificación": "Bebidas no alcohólicas",
+        "cantidad_existencia": 7,
+        "existencia_mínima": 5,
+        "existencia_máxima": 50
+      },
+      {
+        "clave": "039",
+        "descripción": "Yogur de frutas",
+        "precio": 12.99,
+        "clasificación": "Lácteos",
+        "cantidad_existencia": 9,
+        "existencia_mínima": 10,
+        "existencia_máxima": 60
+      },
+      {
+        "clave": "040",
+        "descripción": "Pan integral",
+        "precio": 19.49,
+        "clasificación": "Panadería",
+        "cantidad_existencia": 40,
+        "existencia_mínima": 10,
+        "existencia_máxima": 50
+      },
+      {
+        "clave": "041",
+        "descripción": "Salmón enlatado",
+        "precio": 36.99,
+        "clasificación": "Enlatados",
+        "cantidad_existencia": 5,
+        "existencia_mínima": 5,
+        "existencia_máxima": 30
+      },
+      {
+        "clave": "042",
+        "descripción": "Zanahorias",
+        "precio": 15.29,
+        "clasificación": "Verduras",
+        "cantidad_existencia": 60,
+        "existencia_mínima": 15,
+        "existencia_máxima": 70
+      },
+      {
+        "clave": "043",
+        "descripción": "Café descafeinado",
+        "precio": 42.29,
+        "clasificación": "Bebidas",
+        "cantidad_existencia": 25,
+        "existencia_mínima": 5,
+        "existencia_máxima": 35
+      },
+      {
+        "clave": "044",
+        "descripción": "Galletas de chocolate",
+        "precio": 17.79,
+        "clasificación": "Bocadillos",
+        "cantidad_existencia": 70,
+        "existencia_mínima": 15,
+        "existencia_máxima": 80
+      },
+      {
+        "clave": "045",
+        "descripción": "Atún enlatado",
+        "precio": 15.99,
+        "clasificación": "Enlatados",
+        "cantidad_existencia": 55,
+        "existencia_mínima": 10,
+        "existencia_máxima": 65
+      },
+      {
+        "clave": "046",
+        "descripción": "Queso suizo",
+        "precio": 54.49,
+        "clasificación": "Lácteos",
+        "cantidad_existencia": 30,
+        "existencia_mínima": 5,
+        "existencia_máxima": 40
+      },
+      {
+        "clave": "047",
+        "descripción": "Sopa de pollo enlatada",
+        "precio": 21.49,
+        "clasificación": "Enlatados",
+        "cantidad_existencia": 45,
+        "existencia_mínima": 10,
+        "existencia_máxima": 55
+      },
+      {
+        "clave": "048",
+        "descripción": "Aceitunas rellenas de anchoas",
+        "precio": 31.29,
+        "clasificación": "Enlatados",
+        "cantidad_existencia": 20,
+        "existencia_mínima": 5,
+        "existencia_máxima": 30
+      },
+      {
+        "clave": "049",
+        "descripción": "Salsa picante",
+        "precio": 12.79,
+        "clasificación": "Salsas",
+        "cantidad_existencia": 40,
+        "existencia_mínima": 10,
+        "existencia_máxima": 50
+      },
+      {
+        "clave": "050",
+        "descripción": "Mazorcas de maíz",
+        "precio": 24.99,
+        "clasificación": "Verduras",
+        "cantidad_existencia": 30,
+        "existencia_mínima": 5,
+        "existencia_máxima": 40
+      },
+      {
+        "clave": "051",
+        "descripción": "Té negro",
+        "precio": 14.49,
+        "clasificación": "Bebidas",
+        "cantidad_existencia": 35,
+        "existencia_mínima": 5,
+        "existencia_máxima": 45
+      },
+      {
+        "clave": "052",
+        "descripción": "Mayonesa",
+        "precio": 17.49,
+        "clasificación": "Salsas",
+        "cantidad_existencia": 50,
+        "existencia_mínima": 10,
+        "existencia_máxima": 60
+      },
+      {
+        "clave": "053",
+        "descripción": "Aguacates",
+        "precio": 19.99,
+        "clasificación": "Frutas",
+        "cantidad_existencia": 55,
+        "existencia_mínima": 10,
+        "existencia_máxima": 65
+      },
+      {
+        "clave": "054",
+        "descripción": "Mermelada de fresa",
+        "precio": 15.79,
+        "clasificación": "Untables",
+        "cantidad_existencia": 25,
+        "existencia_mínima": 5,
+        "existencia_máxima": 30
+      },
+      {
+        "clave": "055",
+        "descripción": "Hamburguesas de res",
+        "precio": 42.99,
+        "clasificación": "Carnes",
+        "cantidad_existencia": 35,
+        "existencia_mínima": 5,
+        "existencia_máxima": 45
+      },
+      {
+        "clave": "056",
+        "descripción": "Salsa de soja",
+        "precio": 17.29,
+        "clasificación": "Salsas",
+        "cantidad_existencia": 30,
+        "existencia_mínima": 5,
+        "existencia_máxima": 40
+      },
+      {
+        "clave": "057",
+        "descripción": "Avena",
+        "precio": 16.49,
+        "clasificación": "Cereales",
+        "cantidad_existencia": 60,
+        "existencia_mínima": 15,
+        "existencia_máxima": 70
+      },
+      {
+        "clave": "058",
+        "descripción": "Limones",
+        "precio": 25.29,
+        "clasificación": "Frutas",
+        "cantidad_existencia": 50,
+        "existencia_mínima": 10,
+        "existencia_máxima": 60
+      },
+      {
+        "clave": "059",
+        "descripción": "Pimientos rojos",
+        "precio": 15.99,
+        "clasificación": "Verduras",
+        "cantidad_existencia": 45,
+        "existencia_mínima": 10,
+        "existencia_máxima": 55
+      },
+      {
+        "clave": "060",
+        "descripción": "Tortillas de maíz",
+        "precio": 12.49,
+        "clasificación": "Panadería",
+        "cantidad_existencia": 40,
+        "existencia_mínima": 10,
+        "existencia_máxima": 50
+      },
+      {
+        "clave": "061",
+        "descripción": "Sardinas enlatadas",
+        "precio": 17.79,
+        "clasificación": "Enlatados",
+        "cantidad_existencia": 30,
+        "existencia_mínima": 5,
+        "existencia_máxima": 40
+      },
+      {
+        "clave": "062",
+        "descripción": "Jugo de manzana",
+        "precio": 14.99,
+        "clasificación": "Bebidas",
+        "cantidad_existencia": 50,
+        "existencia_mínima": 10,
+        "existencia_máxima": 60
+      },
+      {
+        "clave": "063",
+        "descripción": "Aceite de oliva",
+        "precio": 26.29,
+        "clasificación": "Aceites",
+        "cantidad_existencia": 25,
+        "existencia_mínima": 5,
+        "existencia_máxima": 35
+      },
+      {
+        "clave": "064",
+        "descripción": "Pimientos verdes",
+        "precio": 12.99,
+        "clasificación": "Verduras",
+        "cantidad_existencia": 35,
+        "existencia_mínima": 10,
+        "existencia_máxima": 45
+      },
+      {
+        "clave": "065",
+        "descripción": "Té verde",
+        "precio": 17.49,
+        "clasificación": "Bebidas",
+        "cantidad_existencia": 40,
+        "existencia_mínima": 10,
+        "existencia_máxima": 50
+      },
+      {
+        "clave": "066",
+        "descripción": "Mostaza",
+        "precio": 18.29,
+        "clasificación": "Salsas",
+        "cantidad_existencia": 30,
+        "existencia_mínima": 5,
+        "existencia_máxima": 40
+      },
+      {
+        "clave": "067",
+        "descripción": "Arándanos",
+        "precio": 22.99,
+        "clasificación": "Frutas",
+        "cantidad_existencia": 25,
+        "existencia_mínima": 5,
+        "existencia_máxima": 35
+      },
+      {
+        "clave": "068",
+        "descripción": "Pan de centeno",
+        "precio": 21.49,
+        "clasificación": "Panadería",
+        "cantidad_existencia": 40,
+        "existencia_mínima": 10,
+        "existencia_máxima": 50
+      },
+      {
+        "clave": "069",
+        "descripción": "Pasta integral",
+        "precio": 21.79,
+        "clasificación": "Cereales",
+        "cantidad_existencia": 35,
+        "existencia_mínima": 5,
+        "existencia_máxima": 45
+      },
+      {
+        "clave": "070",
+        "descripción": "Aceitunas rellenas de pimientos",
+        "precio": 39.29,
+        "clasificación": "Enlatados",
+        "cantidad_existencia": 25,
+        "existencia_mínima": 5,
+        "existencia_máxima": 30
+      },
+      {
+        "clave": "071",
+        "descripción": "Queso parmesano",
+        "precio": 41.49,
+        "clasificación": "Lácteos",
+        "cantidad_existencia": 30,
+        "existencia_mínima": 10,
+        "existencia_máxima": 40
+      },
+      {
+        "clave": "072",
+        "descripción": "Tortillas de trigo",
+        "precio": 25.49,
+        "clasificación": "Panadería",
+        "cantidad_existencia": 45,
+        "existencia_mínima": 10,
+        "existencia_máxima": 55
+      },
+      {
+        "clave": "073",
+        "descripción": "Aceite de canola",
+        "precio": 31.99,
+        "clasificación": "Aceites",
+        "cantidad_existencia": 20,
+        "existencia_mínima": 5,
+        "existencia_máxima": 30
+      },
+      {
+        "clave": "074",
+        "descripción": "Cereal de arroz",
+        "precio": 21.99,
+        "clasificación": "Cereales",
+        "cantidad_existencia": 35,
+        "existencia_mínima": 5,
+        "existencia_máxima": 45
+      },
+      {
+        "clave": "075",
+        "descripción": "Aceite de aguacate",
+        "precio": 42.29,
+        "clasificación": "Aceites",
+        "cantidad_existencia": 25,
+        "existencia_mínima": 5,
+        "existencia_máxima": 30
+      },
+      {
+        "clave": "076",
+        "descripción": "Salsa de barbacoa",
+        "precio": 18.49,
+        "clasificación": "Salsas",
+        "cantidad_existencia": 30,
+        "existencia_mínima": 10,
+        "existencia_máxima": 40
+      },
+      {
+        "clave": "077",
+        "descripción": "Mango",
+        "precio": 15.99,
+        "clasificación": "Frutas",
+        "cantidad_existencia": 40,
+        "existencia_mínima": 10,
+        "existencia_máxima": 50
+      },
+      {
+        "clave": "078",
+        "descripción": "Té de hierbas",
+        "precio": 21.79,
+        "clasificación": "Bebidas",
+        "cantidad_existencia": 25,
+        "existencia_mínima": 5,
+        "existencia_máxima": 30
+      },
+      {
+        "clave": "079",
+        "descripción": "Pasta de curry",
+        "precio": 31.29,
+        "clasificación": "Salsas",
+        "cantidad_existencia": 30,
+        "existencia_mínima": 5,
+        "existencia_máxima": 35
+      },
+      {
+        "clave": "080",
+        "descripción": "Papayas",
+        "precio": 15.59,
+        "clasificación": "Frutas",
+        "cantidad_existencia": 35,
+        "existencia_mínima": 10,
+        "existencia_máxima": 45
+      }
+      
+    ]
+  }
+  
